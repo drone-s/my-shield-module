@@ -1,0 +1,2 @@
+config SHIELD_53EN
+    def_bool $(shields_list_contains,53en)
