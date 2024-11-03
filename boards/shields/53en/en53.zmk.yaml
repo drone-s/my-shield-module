@@ -1,0 +1,11 @@
+file_format: "1"
+id: 53en
+name: 53en
+type: shield
+url: https://github.com/drone-s/my-shield-module/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
