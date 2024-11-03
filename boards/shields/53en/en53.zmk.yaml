@@ -3,7 +3,7 @@ id: 53en
 name: 53en
 type: shield
 url: https://github.com/drone-s/my-shield-module/
-requires: [pro_micro]
+requires: [nice_nano_v2]
 exposes: [i2c_oled]
 features:
   - keys
