@@ -1,0 +1,7 @@
+if SHIELD_53EN
+
+# Name must be less than 16 characters long!
+config ZMK_53EN
+    default "53en"
+
+endif
