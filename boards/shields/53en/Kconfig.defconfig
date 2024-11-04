@@ -1,4 +1,4 @@
 if SHIELD_53EN
-    config ZMK_53EN
+    config ZMK_KEYBOARD_NAME
         default "53en"
 endif
