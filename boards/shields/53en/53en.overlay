@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
+
 / {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
@@ -19,11 +21,7 @@
             , <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-};
 
-#include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
-
-/ {
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <5>; // Length of the "col-gpios" array
@@ -39,23 +37,18 @@
             RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)
         >;
     };
-};
 
-/ {
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
         kscan = <&kscan0>;
     };
-};
 
-/ {
     chosen {
         zmk,physical-layout = &default_layout;
         // Other chosen items
     };
-};
 
     encoder_left: encoder_left {
         compatible = "alps,ec11";
@@ -84,3 +77,4 @@
         compatible = "zmk,keymap-sensors";
         triggers-per-rotation = <20>;
     };
+};
