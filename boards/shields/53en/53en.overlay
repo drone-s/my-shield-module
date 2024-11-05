@@ -78,16 +78,17 @@
         sensors = <&left_encoder &right_encoder &mid_encoder>;
         triggers-per-rotation = <20>;
     };
-
-    &encoder_left {
-        status = "okay"
-    };
-
-    &encoder_mid {
-        status = "okay"
-    };
-
-    &encoder_right {
-        status = "okay"
-    };
 };
+
+&encoder_left {
+    status = "okay"
+};
+
+&encoder_mid {
+    status = "okay"
+};
+
+&encoder_right {
+    status = "okay"
+};
+
