@@ -81,14 +81,14 @@
 };
 
 &encoder_left {
-    status = "okay"
+    status = "okay";
 };
 
 &encoder_mid {
-    status = "okay"
+    status = "okay";
 };
 
 &encoder_right {
-    status = "okay"
+    status = "okay";
 };
 
