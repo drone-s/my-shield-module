@@ -79,7 +79,7 @@
         triggers-per-rotation = <20>;
     };
 
-    &encoder_left {
+    encoder_left: encoder_left {
         status = "okay";
     };
 
