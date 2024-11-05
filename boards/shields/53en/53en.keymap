@@ -29,3 +29,7 @@
 &mid_encoder {
     status = "okay";
 };
+
+&sensors {
+    sensors = <&left_encoder &right_encoder &mid_encoder>;
+};
