@@ -79,15 +79,15 @@
         triggers-per-rotation = <20>;
     };
 
-    &left_encoder {
+    &encoder_left {
         status = "okay";
     };
 
-    &right_encoder {
+    &encoder_mid {
         status = "okay";
     };
 
-    &mid_encoder {
+    &encoder_right {
         status = "okay";
     };
 };
