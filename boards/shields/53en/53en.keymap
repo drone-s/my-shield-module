@@ -1,20 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-&left_encoder {
-    status = "okay";
-};
-&right_encoder {
-    status = "okay";
-};
-&mid_encoder {
-    status = "okay";
-};
-
-&sensors {
-    sensors = <&left_encoder &right_encoder &mid_encoder>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
