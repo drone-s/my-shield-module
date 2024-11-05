@@ -1,4 +1,4 @@
-#include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
+    #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
 
 / {
     kscan0: kscan0 {
@@ -80,14 +80,14 @@
     };
 
     &left_encoder {
-    status = "okay";
+        status = "okay";
     };
 
     &right_encoder {
-    status = "okay";
+        status = "okay";
     };
 
     &mid_encoder {
-    status = "okay";
+        status = "okay";
     };
 };
