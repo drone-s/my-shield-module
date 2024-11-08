@@ -12,7 +12,7 @@
                 &kp LA(F18)    &kp LA(F19)    &kp LA(F20)
                 &kp LA(F13)    &kp LA(F14)    &kp LA(F15)    &kp LA(F16)    &kp LA(F17)
                 &kp LC(F13)    &kp LC(F14)    &kp LC(F15)    &kp LC(F16)    &kp LC(F17)
-                &kp BT_NXT   &kp LS(F14)    &kp LS(F15)    &kp LS(F16)    &kp LS(F17)
+                &bt BT_NXT   &kp LS(F14)    &kp LS(F15)    &kp LS(F16)    &kp LS(F17)
             >;
             sensor-bindings = <&inc_dec_kp LS(F18) LC(F18)    &inc_dec_kp LS(F19) LC(F19)    &inc_dec_kp LS(F20) LC(F20)>;
 
